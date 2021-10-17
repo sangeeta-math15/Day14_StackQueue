@@ -96,4 +96,6 @@ public class MyLinkedList<K> {
         myNodes.append(tempNode.getKey());
         System.out.println(myNodes);
     }
+
+
 }
