@@ -16,4 +16,9 @@ public class MyStack<K> {
     public void printStack() {
         myLinkedList.printMyNode();
     }
+
+    public INode<K> pop()
+    {
+        return myLinkedList.pop();
+    }
 }
